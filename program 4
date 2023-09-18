@@ -1,0 +1,9 @@
+A = set({100, 7, 8})
+B = set({200, 4, 5})
+C = set({300, 2, 3})
+D = set({100, 200, 300})
+
+print("a. A U B = ", A.union(B))
+print("b. B U C = ", B.union(C))
+print("c. B U C U D = ", B.union(C).union(D))
+print("d. A U B U C U D = ", A.union(B).union(C).union(D))
