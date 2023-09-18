@@ -1,0 +1,9 @@
+nilai = {3,6,9,2,5,7}
+
+# Tambahkan elemen baru ke dalam himpunan nilai
+nilai = nilai | {1,4,8,10}
+print (nilai)
+
+# Hapus elemen dari himpunan nilai
+nilai = nilai - {1,3,4,5,7,8,10}
+print(nilai)
